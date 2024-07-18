@@ -89,7 +89,7 @@ The system implements role-based authentication to differentiate between Admin a
 
 ### GraphQL API
 
-1. **Query: searchTasks**
+1. **Query: searchTasks**(http://localhost:3000/graphql/search)
     - **Description**: Searches tasks based on name (for users) or name and author (for admins).
     - **Roles**: Admin, User
     - **Parameters**: Search criteria (name, author for admin)
